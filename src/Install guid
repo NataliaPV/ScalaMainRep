@@ -1,4 +1,17 @@
-1. How to build executable (e.g. "fat" jar)
+New.
+
+- set main class in tag:
+
+<manifest>
+      <mainClass>package_name.class_name</mainClass>
+</manifest>
+
+- execute compilation and packaging
+
+package
+
+
+Legacy. How to build executable (e.g. "fat" jar)
 
 - set main class in tag:
 
