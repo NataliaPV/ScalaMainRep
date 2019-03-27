@@ -131,6 +131,8 @@
                     <!--</execution>-->
                 <!--</executions>-->
             <!--</plugin>-->
+            <!--как его настраивать-->
+            <!--http://www.scalastyle.org/rules-1.0.0.html#org_scalastyle_file_HeaderMatchesChecker-->
             <plugin>
                 <groupId>org.scalastyle</groupId>
                 <artifactId>scalastyle-maven-plugin</artifactId>
@@ -140,10 +142,10 @@
                     <failOnViolation>true</failOnViolation>
                     <includeTestSourceDirectory>true</includeTestSourceDirectory>
                     <failOnWarning>false</failOnWarning>
-                    <sourceDirectory>/home/boris/IdeaProjects/ScalaMainRep/src/main/scala</sourceDirectory>
-                    <testSourceDirectory>/home/boris/IdeaProjects/ScalaMainRep/src/test/scala</testSourceDirectory>
-                    <configLocation>/home/boris/IdeaProjects/ScalaMainRep/lib/scalastyle_config.xml</configLocation>
-                    <outputFile>/home/boris/IdeaProjects/ScalaMainRep/lib/scalastyle-output.xml</outputFile>
+                    <sourceDirectory>/src/main/scala</sourceDirectory>
+                    <testSourceDirectory>/src/test/scala</testSourceDirectory>
+                    <configLocation>/lib/scalastyle_config.xml</configLocation>
+                    <outputFile>/lib/scalastyle-output.xml</outputFile>
                     <outputEncoding>UTF-8</outputEncoding>
                 </configuration>
                 <executions>
