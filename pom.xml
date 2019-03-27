@@ -145,7 +145,7 @@
                     <sourceDirectory>/var/lib/jenkins/workspace/maven-project/src/main/scala</sourceDirectory>
                     <testSourceDirectory>/var/lib/jenkins/workspace/maven-project/src/test/scala</testSourceDirectory>
                     <configLocation>/var/lib/jenkins/workspace/maven-project/lib/scalastyle_config.xml</configLocation>
-                    <outputFile>/var/lib/jenkins/workspace/maven-project/lib/scalastyle-output.xml</outputFile>
+                    <outputFile>/var/lib/jenkins/workspace/maven-project/target/checkstyle-result.xml</outputFile>
                     <outputEncoding>UTF-8</outputEncoding>
                 </configuration>
                 <executions>
