@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/boris/IdeaProjects/ScalaMainRep/src/main/scala/com/core/scala/development/SecondClass.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="2" line="11" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error line="8" source="org.scalastyle.file.IndentationChecker" severity="warning" message="Use correct indentation"/>
+  <error line="11" source="org.scalastyle.file.IndentationChecker" severity="warning" message="Use correct indentation"/>
+  <error line="12" source="org.scalastyle.file.IndentationChecker" severity="warning" message="Use correct indentation"/>
+  <error line="13" source="org.scalastyle.file.IndentationChecker" severity="warning" message="Use correct indentation"/>
+ </file>
+ <file name="/home/boris/IdeaProjects/ScalaMainRep/src/main/scala/com/core/scala/development/TheMainOne.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="2" line="19" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error source="org.scalastyle.file.NewLineAtEofChecker" severity="warning" message="File must end with newline character"/>
+  <error column="6" line="7" source="org.scalastyle.scalariform.EmptyClassChecker" severity="warning" message="Redundant braces after class definition"/>
+  <error line="19" source="org.scalastyle.file.IndentationChecker" severity="warning" message="Use correct indentation"/>
+ </file>
+</checkstyle>

@@ -131,6 +131,29 @@
                     <!--</execution>-->
                 <!--</executions>-->
             <!--</plugin>-->
+            <plugin>
+                <groupId>org.scalastyle</groupId>
+                <artifactId>scalastyle-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <verbose>false</verbose>
+                    <failOnViolation>true</failOnViolation>
+                    <includeTestSourceDirectory>true</includeTestSourceDirectory>
+                    <failOnWarning>false</failOnWarning>
+                    <sourceDirectory>/home/boris/IdeaProjects/ScalaMainRep/src/main/scala</sourceDirectory>
+                    <testSourceDirectory>/home/boris/IdeaProjects/ScalaMainRep/src/test/scala</testSourceDirectory>
+                    <configLocation>/home/boris/IdeaProjects/ScalaMainRep/lib/scalastyle_config.xml</configLocation>
+                    <outputFile>/home/boris/IdeaProjects/ScalaMainRep/lib/scalastyle-output.xml</outputFile>
+                    <outputEncoding>UTF-8</outputEncoding>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 
